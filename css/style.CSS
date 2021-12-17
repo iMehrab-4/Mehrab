@@ -1,0 +1,317 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family:'Readex Pro', sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:'Readex Pro', sans-serif;
+	font-weight: 700;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/******************************
+ * LUCID codes goes here
+******************************/
+
+/******************************
+ * Global title code start
+******************************/
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.title h5{
+	font-size: 20px;
+	line-height: 1.2em;
+	font-weight: 600;
+	color: #008ed6;
+	letter-spacing: 1px;
+}
+.title h1{
+	font-size: 55px;
+	line-height: 1.4em;
+	font-weight: 600;
+	color: black;
+	letter-spacing: 1px;
+}
+
+
+/******************************
+ * Global title code end
+******************************/
+
+.header{
+	width: 100%;
+	background: url("../images/home.png") center top no-repeat;
+	background-size: cover;
+}
+.header .bg-light{
+	background: transparent !important;
+}
+.header img{
+	width: 75%;
+	padding: 0px 0px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light{
+    color: black;
+    font-size: 18px;
+    font-weight: 540;
+    text-transform: capitalize
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+	margin: 0px 10px 0px;
+}
+.banner{
+	width: 100%;
+	padding: 190px 0px;
+}
+.inner-banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.inner-banner h1{
+	font-size: 60px;
+	line-height: 1.2em;
+	font-weight: 750;
+	text-transform: uppercase;
+	color: #black;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 0px 35px 0px 0px;
+}
+.inner-button{
+	width: 100%;
+	padding: 40px 0px 0px ;
+	display: inline;
+}
+.inner-button .btn-primary{
+	padding: 12px 45px;
+	border-radius: 30px;
+	background: transparent;
+	color: black;
+	border-color: #999;
+	font-size: 16px;
+	font-weight: 550;
+	margin: 50px 15px 170px 540px;
+}
+.inner-button .btn-primary:hover, .inner-button .btn-primary:focus{
+	background: black;
+	color: white;
+	border-color: transparent;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px 0px;
+	border-bottom: 1px solid #c8c8c8;
+	background: url("../images/code.png") center top no-repeat;
+	background-size: cover;
+	margin: 0px 0px 0px 0px;
+}
+.feature .title h1 span{
+	font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 650;
+    color: white;
+}
+.feature h1{
+	font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: white;
+    display: inline;
+    margin: 0px 110px 0px;
+}
+.feature p{
+	width: 80%;
+	font-size: 15px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: #999;
+    margin: 10px 110px 0px;
+}
+.inner-feature{
+	width: 100%;
+	padding: 0px 55px;
+	text-align: center;
+}
+.feature .inner-button .btn-primary{
+	width: 23%;
+	padding: 10px 0px;
+	margin: 50px 0px 10px 110px;
+	border-color: #999;
+	color: white;
+}
+.feature .inner-button .btn-primary:hover, .feature .inner-button .btn-primary:focus{
+	background: white;
+	color: black;
+	border-color: transparent;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.inner-feature h4{
+	font-size: 50px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: black;
+	margin: 0px 0px 20px;
+}
+.inner-feature p{
+	font-size: 15px;
+	line-height: 1.7em;
+	font-weight: 400;
+	color: #999;
+	margin: 0px 0px 0px;
+}
+.what-we{
+	width: 100%;
+	padding: 90px 0px;
+}
+.what-we .title{
+	padding: 0px 0px 80px 0px;
+	margin: 30px 0px 0px;
+	text-align: center;
+	font-size: 15px;
+}
+.what-we p{
+	font-size: 15px;
+	line-height: 1.7em;
+	font-weight: 400;
+	color: #999;
+}
+.what-we-list{
+	width: 100%;
+	padding: 0px;
+	margin: 30px 0px 0px;
+}
+.what-we .pics{
+	width: 100%;
+	padding: 80px 0px;
+	height: 15px;
+	margin: 40px 11px 0px 0px;
+}
+.what-we .title h4{
+	font-size: 25px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: black;
+	margin: 10px 0px 20px;
+}
+.col-lg-6 .title .web-1{
+	padding: 13px 0px 0px;
+}
+.col-lg-6 .title .web-2{
+	padding: 2px 0px 0px;
+}
+.what-we .inner-button .btn-primary{
+	margin: -30px 565px 0px
+}
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/aboutus.png") center top no-repeat;
+	background-size: cover;
+}
+.about .title{
+	padding: 0px 0px 50px;
+	display: inherit;
+}
+.about .title h2{
+	color: white;
+	text-align: center;
+	
+}
+.about .title img{
+	padding: 80px 0px 0px 77px;
+	text-align: center;
+}
+.about .title h4{
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	padding: 20px 2px 0px 0px;
+}
+.about .title p{
+	width: 100%;
+	text-align: center;
+	color: #999;
+}
+
+.about .inner-button .btn-primary{
+    padding: 12px 45px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    border-color: #999;
+    font-size: 16px;
+    font-weight: 550;
+    margin: 0px 15px 60px 570px;
+}
+.about .inner-button .btn-primary:hover, .about .inner-button .btn-primary:focus{
+	background: white;
+    color: black;
+    border-color: transparent;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background: #15141a;
+	padding: 0px 12px 0px;
+}
+.footer p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #444348;
+	margin: -80px 0px 30px 198px;
+}
+.footer .col-lg-8{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #444348;
+ 	text-align: center;
+    margin: 20px 0px 0px 200px
+}
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #444348;
+ 	text-align: center;
+}
+.footer .social-icons{
+	width: 100%;
+	margin: 50px 0px;
+	text-align: center;
+}
+.footer .social-icons ul{
+	display: block;
+	width: 100%;
+	margin: 0px 285px 0px;
+}
+.footer .social-icons ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 5px;
+}
+.footer .social-icons ul li a{
+	display: block;
+	width: 45px;
+	height: 50px;
+	line-height: 0px;
+	background: transparent;
+	color: #444348;
+	font-size: 20px;
+}
+.footer .social-icons ul li a:hover, .footer .social-icons ul li a:focus{
+	color: white;
+	transition: 0.2s;
+}
